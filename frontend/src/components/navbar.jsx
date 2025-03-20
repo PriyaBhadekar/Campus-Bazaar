@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-700 shadow-md">
+    <nav className="bg-black shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -13,7 +13,7 @@ const Navbar = () => {
           </div>
           
           {/* Navigation Links */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden md:flex space-x-6 m-4">
             <a href="/" className="text-white hover:text-gray-200">Home</a>
             <a href="/about" className="text-white hover:text-gray-200">About</a>
             <a href="/courses" className="text-white hover:text-gray-200">Courses</a>
@@ -23,7 +23,7 @@ const Navbar = () => {
           
           {/* CTA Button */}
           <div className="hidden md:flex">
-            <a href="/signup" className="bg-yellow-500 text-white px-6 py-2 rounded-lg hover:bg-yellow-600 transition duration-200">
+            <a href="/signup" className="bg-white text-black px-6 py-2 rounded-lg hover:bg-yellow-200 transition duration-300">
               Sign Up
             </a>
           </div>
